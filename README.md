@@ -16,8 +16,7 @@ This project is hosted on GitHub: [https://github.com/andrefoo/kyc-model.git](ht
    - Open the `document_extraction.py` file
    - Replace the placeholder API key on line 7 with your actual Fireworks AI API key:
      ```python:document_extraction.py
-     startLine: 7
-     endLine: 7
+     fireworks.client.api_key = 'YOUR_API_KEY_HERE'
      ```
 
 3. **Install required libraries**
@@ -54,3 +53,4 @@ This project is hosted on GitHub: [https://github.com/andrefoo/kyc-model.git](ht
 ## Note
 
 This project is for demonstration purposes only. Ensure you have the right to process any personal documents and comply with relevant data protection regulations.
+

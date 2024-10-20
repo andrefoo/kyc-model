@@ -4,7 +4,7 @@ from PIL import Image
 import io
 import fireworks.client
 
-fireworks.client.api_key = 'fw_3ZizSNVsSYhgFhtdGx2MME1M'
+fireworks.client.api_key = 'YOUR_API_KEY_HERE'
 
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
@@ -136,7 +136,7 @@ def process_document(image_path):
 
 if __name__ == "__main__":
     import os
-
+    
     upload_folder = "upload"
     results = []
 
